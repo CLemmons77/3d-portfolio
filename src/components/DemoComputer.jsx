@@ -1,13 +1,13 @@
 import { useEffect, useRef } from "react";
-import { useGLTF, useTexture } from "@react-three/drei";
+import { useGLTF, useVideoTexture } from "@react-three/drei";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const DemoComputer = (props) => {
   const group = useRef();
   const { nodes, materials } = useGLTF("/models/computer.glb");
-  const txt = useTexture(
-    props.texture ? props.texture : "/textures/project/project1.png"
+  const txt = useVideoTexture(
+    props.texture ? props.texture : "/textures/project/project1.mp4"
   );
 
   useEffect(() => {

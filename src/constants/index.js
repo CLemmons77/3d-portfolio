@@ -62,7 +62,7 @@ export const myProjects = [
     desc: "AniSearch is a web app that allows users to search for anime and view their details.",
     subdesc: "Built as a personal project using HTML, CSS, and JavaScript.",
     href: "https://clemmons77.github.io/Anime-Web-Project/",
-    texture: "/textures/project/project1.png",
+    texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.jpg",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -94,7 +94,7 @@ export const myProjects = [
     subdesc:
       "Built with React.js and TailwindCSS, this page demonstrates my ability to create responsive and user-friendly landing pages.",
     href: "https://xora-clone.vercel.app/",
-    texture: "/textures/project/project2.png",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
       backgroundColor: "#13202F",
@@ -121,7 +121,7 @@ export const myProjects = [
     subdesc:
       "Built using React.js and CSS, this app allows users to browse and sort listed books, and add them to a cart which is responsive.",
     href: "https://library-app-react-xi.vercel.app/",
-    texture: "/textures/project/project3.png",
+    texture: "/textures/project/project3.mp4",
     logo: "/assets/react.svg",
     logoStyle: {
       backgroundColor: "#7342D6",
