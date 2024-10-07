@@ -93,7 +93,7 @@ export const myProjects = [
     desc: "Xora is a SaaS clone landing page that offers a seamless user experience with a modern, eye-catching design.",
     subdesc:
       "Built with React.js and TailwindCSS, this page demonstrates my ability to create responsive and user-friendly landing pages.",
-    href: "xora-clone-bc3pc3oc1-caleb-lemmons-projects.vercel.app",
+    href: "https://xora-clone.vercel.app/",
     texture: "/textures/project/project2.png",
     logo: "/assets/project-logo2.png",
     logoStyle: {
