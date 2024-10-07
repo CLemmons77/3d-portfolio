@@ -49,7 +49,7 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <p className="text-white-500">
+      <p className="text-white-500 cursor-default">
         © 2024 Caleb Lemmons. All Rights Reserved.
       </p>
     </section>

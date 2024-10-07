@@ -14,11 +14,11 @@ const DemoComputer = (props) => {
     props.texture ? props.texture : "/textures/project/project1.png"
   );
 
-  useEffect(() => {
-    if (txt) {
-      txt.flipY = false;
-    }
-  }, [txt]);
+  // useEffect(() => {
+  //   if (txt) {
+  //     txt.flipY = false;
+  //   }
+  // }, [txt]);
 
   useGSAP(() => {
     gsap.from(group.current.rotation, {
