@@ -29,7 +29,7 @@ const Footer = () => {
             target="_blank"
           >
             <img
-              src="/assets/twitter.svg"
+              src="/assets/linkedin.svg"
               alt="github"
               className="w-1/2 h-1/2"
             />
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <a
-            href="https://github.com/CLemmons77"
+            href="https://www.instagram.com/c.lemmons77?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
             className="flex items-center justify-center cursor-pointer"
             target="_blank"
           >
