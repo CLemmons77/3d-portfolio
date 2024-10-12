@@ -147,7 +147,7 @@ export const myProjects = [
     desc: "Aora is a platform for users to view and add ai generated videos to inspire others.",
     subdesc:
       "Built using ReactNative and Nativewind, this app allows users to create an account and browse responsively.",
-    href: "https://library-app-react-xi.vercel.app/",
+    href: "https://github.com/CLemmons77/Aora_Clone",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/logo-small.png",
     logoStyle: {
