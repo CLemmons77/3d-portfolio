@@ -124,9 +124,34 @@ export const myProjects = [
     texture: "/textures/project/project3.mp4",
     logo: "/assets/react.svg",
     logoStyle: {
-      backgroundColor: "#7342D6",
-      background:
-        "linear-gradient(0deg, #7342D6, #7342D6), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+      backgroundColor: "#13202F",
+      border: "none",
+      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
+    },
+    spotlight: "/assets/spotlight3.png",
+    tags: [
+      {
+        id: 1,
+        name: "React.js",
+        path: "/assets/react.svg",
+      },
+      {
+        id: 2,
+        name: "CSS",
+        path: "assets/tailwindcss.png",
+      },
+    ],
+  },
+  {
+    title: "Aora - A Mobile App Clone",
+    desc: "Aora is a platform for users to view and add ai generated videos to inspire others.",
+    subdesc:
+      "Built using ReactNative and Nativewind, this app allows users to create an account and browse responsively.",
+    href: "https://library-app-react-xi.vercel.app/",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/logo-small.png",
+    logoStyle: {
+      backgroundColor: "#13202F",
       border: "none",
       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)",
     },
