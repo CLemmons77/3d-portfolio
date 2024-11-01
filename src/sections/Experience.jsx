@@ -20,7 +20,11 @@ const Experience = () => {
               <directionalLight position={[10, 10, 10]} intensity={1} />
               <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} />
               <Suspense fallback={<CanvasLoader />}>
-                <Developer position-y={-3} scale={3} animationName={animationName} />
+                <Developer
+                  position-y={-3}
+                  scale={3}
+                  animationName={animationName}
+                />
               </Suspense>
             </Canvas>
           </div>
@@ -39,7 +43,13 @@ const Experience = () => {
                   >
                     <div className="flex flex-col h-full justify-start items-center py-2">
                       <div className="work-content_logo">
-                        <img src={icon} alt="logo" className="w-full h-full" />
+                        <a href="../assets/FES_Certificate.pdf" target="_blank">
+                          <img
+                            src={icon}
+                            alt="logo"
+                            className="w-full h-full"
+                          />
+                        </a>
                       </div>
                       <div className="work-content_bar" />
                     </div>
