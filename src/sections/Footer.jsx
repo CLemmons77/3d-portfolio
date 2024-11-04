@@ -24,27 +24,27 @@ const Footer = () => {
         </div>
         <div className="social-icon">
           <a
-            href="https://github.com/CLemmons77"
+            href="https://www.linkedin.com/in/caleb-lemmons-9577b5333/"
             className="flex items-center justify-center cursor-pointer"
             target="_blank"
           >
             <img
               src="/assets/linkedin.svg"
-              alt="github"
+              alt="linkedin"
               className="w-1/2 h-1/2"
             />
           </a>
         </div>
         <div className="social-icon">
           <a
-            href="https://www.instagram.com/c.lemmons77?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            href="/assets/FES_RESUME.pdf"
             className="flex items-center justify-center cursor-pointer"
             target="_blank"
           >
             <img
-              src="/assets/instagram.svg"
-              alt="github"
-              className="w-1/2 h-1/2"
+              src="/assets/file-solid.svg"
+              alt="resume"
+              className="w-1/3 h-1/3"
             />
           </a>
         </div>

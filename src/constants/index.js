@@ -19,6 +19,12 @@ export const navLinks = [
     name: "Contact",
     href: "#contact",
   },
+  {
+    id: 5,
+    name: "Resume",
+    href: "../assets/FES_RESUME.pdf",
+    target: "_blank",
+  },
 ];
 
 export const clientReviews = [
