@@ -45,13 +45,8 @@ const Contact = () => {
 
   return (
     <section className="c-space my-20" id="contact">
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
-        <img
-          src="/assets/terminal.png"
-          alt="terminal background"
-          className="absolute inset-0 min-h-screen"
-        />
-        <div className="contact-container">
+      <div className="relative max-lg:min-h-screen flex items-center justify-center flex-col md:h-[800px]">
+        <div className="contact-container work-content py-10">
           <h3 className="head-text">Let's Talk</h3>
           <p className="text-lg text-white-600 mt-3">
             Whether you're looking to build a new project, improve an existing

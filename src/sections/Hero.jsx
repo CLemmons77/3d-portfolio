@@ -5,10 +5,6 @@ import { useMediaQuery } from "react-responsive";
 import HackerRoom from "../components/HackerRoom";
 import CanvasLoader from "../components/CanvasLoader";
 import { calculateSizes } from "../constants/index";
-import Target from "../components/Target";
-import ReactLogo from "../components/ReactLogo";
-import Cube from "../components/Cube";
-import Rings from "../components/Rings";
 import HeroCamera from "../components/HeroCamera";
 import Button from "../components/Button";
 
@@ -40,12 +36,6 @@ const Hero = () => {
                 scale={sizes.deskScale}
               />
             </HeroCamera>
-            <group>
-              <Target position={sizes.targetPosition} />
-              <ReactLogo position={sizes.reactLogoPosition} />
-              <Cube position={sizes.cubePosition} />
-              <Rings position={sizes.ringPosition} />
-            </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
           </Suspense>

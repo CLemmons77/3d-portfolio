@@ -113,7 +113,7 @@ const About = () => {
                   alt="copy"
                 />
                 <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">
-                  caleb.lemmons2019@gmail.com
+                  me@caleb-lemmons.com
                 </p>
               </div>
             </div>
